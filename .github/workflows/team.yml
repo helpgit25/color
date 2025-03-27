@@ -1,0 +1,10 @@
+name: githubactions
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello
+        run: echo "hello pls"
+      - name: print hi
+        run: echo "hi new team"
