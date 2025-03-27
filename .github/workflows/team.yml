@@ -1,10 +1,10 @@
-name: githubactions
+name: githubacdd
 on: workflow_dispatch
 jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
       - name: print hello
-        run: echo "hello pls"
+        run: echo "hello srh"
       - name: print hi
         run: echo "hi new team"
