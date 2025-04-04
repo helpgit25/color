@@ -1,5 +1,6 @@
 name: team - ${{ github.repository }}
 on: push
+run-name: "${{ github.repository }} - Workflow Run by @${{ github.actor }}"
 jobs:
   job1:
     runs-on: ubuntu-latest
