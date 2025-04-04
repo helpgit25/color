@@ -1,4 +1,4 @@
-name: team - helpgit25
+name: team - ${{ github.repository }}
 on: push
 jobs:
   job1:
